@@ -50,10 +50,11 @@
         <path d="M10 30a15 15 0 0 0 27 5"/><path d="M10 40V30h10"/>
       </g>
     </symbol>
-    <symbol id="i-goal" viewBox="0 0 48 48">
+    <symbol id="i-noref" viewBox="0 0 48 48">
       <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M4 38V12h40v26"/><path d="M2 38h44"/>
-        <path d="M12 12v26M20 12v26M28 12v26M36 12v26M4 21h40M4 30h40" stroke-width="1.5" opacity=".6"/>
+        <circle cx="24" cy="24" r="20"/>
+        <circle cx="19" cy="28" r="8" stroke-width="2.5"/><path d="M25 22.5l12-5.5v6l-9 4" stroke-width="2.5"/>
+        <path d="M10 10l28 28"/>
       </g>
     </symbol>
     <symbol id="i-notackle" viewBox="0 0 48 48">
@@ -242,9 +243,9 @@
             <p data-i18n="play.subsText">Come off for a breather and go back on whenever you're ready.</p>
           </li>
           <li class="icon-card">
-            <span class="icon-badge"><svg aria-hidden="true" focusable="false"><use href="#i-goal"/></svg></span>
-            <h3 data-i18n="play.keeperTitle">With a goalkeeper</h3>
-            <p data-i18n="play.keeperText">Each team plays with a goalkeeper.</p>
+            <span class="icon-badge"><svg aria-hidden="true" focusable="false"><use href="#i-noref"/></svg></span>
+            <h3 data-i18n="play.refTitle">No referee</h3>
+            <p data-i18n="play.refText">Any foul or stoppage in play means the ball goes back to the goalkeeper.</p>
           </li>
           <li class="icon-card">
             <span class="icon-badge"><svg aria-hidden="true" focusable="false"><use href="#i-notackle"/></svg></span>
@@ -277,7 +278,7 @@
           <article class="welcome-card">
             <span class="icon-badge icon-badge-terra"><svg aria-hidden="true" focusable="false"><use href="#i-team"/></svg></span>
             <h3 data-i18n="welcome.teamsTitle">Visiting over-60s teams</h3>
-            <p data-i18n="welcome.teamsText">Bringing an over-60s team to Phuket? We'd love to arrange a friendly match – followed by a drink together at the bar.</p>
+            <p data-i18n="welcome.teamsText">Bringing an over-60s team to Phuket? We'd love to arrange a friendly match and get to know you.</p>
             <a class="btn btn-primary" href="#contact" data-i18n="welcome.teamsCta">Arrange a match</a>
           </article>
           <article class="welcome-card">
@@ -326,7 +327,6 @@
                     <li data-i18n="where.fac1">Artificial grass pitch</li>
                     <li data-i18n="where.fac2">Changing rooms</li>
                     <li data-i18n="where.fac3">Parking</li>
-                    <li data-i18n="where.fac4">Bar for after the match</li>
                   </ul>
                 </dd>
               </div>
