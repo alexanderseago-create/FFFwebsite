@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FFF Phuket – Football for Fun &amp; Fitness | Over-60s football in Phuket</title>
+  <meta name="description" content="FFF Phuket is a friendly over-60s football team in Phuket, Thailand. Visiting teams and players are welcome – 7-a-side every Saturday at The Hatrix.">
+  <meta name="theme-color" content="#2F4F3A">
+
+  <!-- Open Graph: controls how the link looks when shared on WhatsApp and Facebook.
+       If the website address changes (for example a custom domain), update og:url and og:image. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="FFF Phuket">
+  <meta property="og:title" content="FFF Phuket – Football for Fun &amp; Fitness">
+  <meta property="og:description" content="A friendly over-60s football team in Phuket, Thailand. Visiting teams and players welcome – come and play with us!">
+  <meta property="og:url" content="https://alexanderseago-create.github.io/FFFwebsite/">
+  <meta property="og:image" content="https://alexanderseago-create.github.io/FFFwebsite/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:locale:alternate" content="th_TH">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500;600;700&family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Icon library: each icon is drawn once here and reused with <use href="#icon-name">. -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-whatsapp" viewBox="0 0 32 32">
+      <path fill="currentColor" d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 6.9L3.2 29l6.6-1.7c1.9 1 4 1.5 6.2 1.5 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.5c-2 0-3.9-.5-5.5-1.5l-.4-.2-3.9 1 1-3.8-.3-.4a10.4 10.4 0 0 1-1.6-5.6C5.3 9.9 10.1 5.3 16 5.3s10.7 4.6 10.7 10.5S21.9 26.5 16 26.5z"/>
+      <path fill="currentColor" d="M21.9 18.6c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.5c.2.2 2.4 3.7 5.8 5.1 2.9 1.1 3.4.9 4 .8.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/>
+    </symbol>
+    <symbol id="i-players" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="24" cy="14" r="6"/><path d="M13 40v-4a11 11 0 0 1 22 0v4"/>
+        <circle cx="10" cy="19" r="4.5"/><path d="M3 38v-2a8 8 0 0 1 9-7.9"/>
+        <circle cx="38" cy="19" r="4.5"/><path d="M45 38v-2a8 8 0 0 0-9-7.9"/>
+      </g>
+    </symbol>
+    <symbol id="i-subs" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M38 18A15 15 0 0 0 11 13"/><path d="M38 8v10H28"/>
+        <path d="M10 30a15 15 0 0 0 27 5"/><path d="M10 40V30h10"/>
+      </g>
+    </symbol>
+    <symbol id="i-goal" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 38V12h40v26"/><path d="M2 38h44"/>
+        <path d="M12 12v26M20 12v26M28 12v26M36 12v26M4 21h40M4 30h40" stroke-width="1.5" opacity=".6"/>
+      </g>
+    </symbol>
+    <symbol id="i-notackle" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="24" cy="24" r="20"/>
+        <path d="M14 30h12l4-6 6 2-2 6H14z" stroke-width="2.5"/>
+        <path d="M10 10l28 28"/>
+      </g>
+    </symbol>
+    <symbol id="i-age" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M24 4l16 6v12c0 10-7 18-16 22C15 40 8 32 8 22V10z"/>
+      </g>
+      <text x="24" y="29" text-anchor="middle" font-family="Kanit, sans-serif" font-weight="700" font-size="14" fill="currentColor">60+</text>
+    </symbol>
+    <symbol id="i-turf" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 40h40"/>
+        <path d="M8 40c0-8 2-14 6-18M14 40c0-10-1-16-4-22M20 40c0-9 3-17 8-22M28 40c0-8-2-14-6-18M34 40c0-10 2-16 6-22M40 40c0-7-2-12-5-15"/>
+      </g>
+    </symbol>
+    <symbol id="i-team" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M17 6l-9 4-5 9 6 4 3-3v22h24V20l3 3 6-4-5-9-9-4c-1 3-3.5 5-7 5s-6-2-7-5z"/>
+      </g>
+    </symbol>
+    <symbol id="i-person" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="20" cy="14" r="7"/><path d="M6 42v-4a14 14 0 0 1 24-9.8"/>
+        <path d="M38 28v14M31 35h14"/>
+      </g>
+    </symbol>
+    <symbol id="i-pin" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M24 44s14-13 14-24a14 14 0 0 0-28 0c0 11 14 24 14 24z"/><circle cx="24" cy="20" r="5"/>
+      </g>
+    </symbol>
+    <symbol id="i-calendar" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="6" y="9" width="36" height="33" rx="4"/><path d="M6 19h36M15 4v9M33 4v9"/>
+        <circle cx="30" cy="31" r="5.5" stroke-width="2.5"/><path d="M30 28.5V31l1.8 1.5" stroke-width="2.5"/>
+      </g>
+    </symbol>
+    <symbol id="i-whistle" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="17" cy="29" r="11"/><path d="M24 20l18-8v8l-14 6"/><circle cx="17" cy="29" r="3"/>
+      </g>
+    </symbol>
+    <symbol id="i-coins" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <ellipse cx="20" cy="12" rx="13" ry="5"/><path d="M7 12v8c0 2.8 5.8 5 13 5s13-2.2 13-5v-8"/>
+        <path d="M7 20v8c0 2.8 5.8 5 13 5"/><ellipse cx="32" cy="30" rx="11" ry="4.5"/>
+        <path d="M21 30v7c0 2.5 4.9 4.5 11 4.5s11-2 11-4.5v-7"/>
+      </g>
+    </symbol>
+    <symbol id="i-star" viewBox="0 0 48 48">
+      <path fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" d="M24 5l5.6 12 13 1.4-9.7 8.8 2.7 12.8L24 33.5 12.4 40l2.7-12.8-9.7-8.8 13-1.4z"/>
+    </symbol>
+    <symbol id="i-camera" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 16a4 4 0 0 1 4-4h6l4-5h12l4 5h6a4 4 0 0 1 4 4v22a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><circle cx="24" cy="26" r="8"/>
+      </g>
+    </symbol>
+    <symbol id="i-play" viewBox="0 0 48 48">
+      <circle cx="24" cy="24" r="22" fill="currentColor"/><path d="M19 15l14 9-14 9z" fill="#fff"/>
+    </symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.3H7.4V14h2.7v8z"/>
+    </symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/></g>
+      <circle cx="17.4" cy="6.6" r="1.3" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15.1V8.9l5.2 3.1z"/>
+    </symbol>
+    <symbol id="i-line" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M12 2.8C6.5 2.8 2 6.4 2 10.9c0 4 3.6 7.4 8.4 8 .3.1.8.2.9.5.1.3.1.7 0 1l-.1.9c0 .3-.2 1 .9.5s6-3.5 8.1-6c1.5-1.6 2.2-3.2 2.2-4.9 0-4.5-4.5-8.1-10.4-8.1z"/>
+      <path style="fill: var(--line-text, #22392A)" d="M6 8.6v4.6h2.8v-1H7.1V8.6zm3.6 0v4.6h1.1V8.6zm2 0v4.6h1V10.4l2 2.8h1V8.6h-1v2.8l-2-2.8zm4.5 0v4.6h2.8v-1h-1.7v-.8h1.7v-1h-1.7v-.8h1.7v-1z"/>
+    </symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="M12 19V5M5 12l7-7 7 7"/>
+    </symbol>
+  </svg>
+
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to main content</a>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#home" data-i18n-attr="aria-label:brand.home" aria-label="FFF Phuket – back to top">
+        <!-- PLACEHOLDER LOGO: FFF Phuket has no logo yet.
+             To use a real logo, replace this whole <svg>…</svg> with:
+             <img src="assets/logo.png" alt="" width="48" height="48"> -->
+        <svg class="crest" viewBox="0 0 64 72" width="44" height="50" aria-hidden="true" focusable="false">
+          <path d="M32 2l28 10v22c0 17-12 30-28 36C16 64 4 51 4 34V12z" fill="#2F4F3A" stroke="#C9452A" stroke-width="3"/>
+          <path d="M8 28h48v10H8z" fill="#C9452A"/>
+          <text x="32" y="36.5" text-anchor="middle" font-family="Kanit, sans-serif" font-weight="700" font-size="11" fill="#FBF5EA" letter-spacing="1">FFF</text>
+          <circle cx="32" cy="52" r="8" fill="#FBF5EA"/>
+          <path d="M32 47.5l4.3 3.1-1.6 5h-5.4l-1.6-5z" fill="#2F4F3A"/>
+          <path d="M20 21c4-6 8-8 12-8s8 2 12 8" fill="none" stroke="#1BB5B0" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name">FFF Phuket</span>
+          <span class="brand-tag" data-i18n="hero.tagline">Football for Fun &amp; Fitness</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" data-i18n-attr="aria-label:nav.label" aria-label="Main">
+        <ul>
+          <li><a href="#home" data-i18n="nav.home">Home</a></li>
+          <li><a href="#how-we-play" data-i18n="nav.play">How we play</a></li>
+          <li><a href="#welcome" data-i18n="nav.welcome">Who we welcome</a></li>
+          <li><a href="#squad" data-i18n="nav.squad">The squad</a></li>
+          <li><a href="#where" data-i18n="nav.where">Where &amp; when</a></li>
+          <li><a href="#gallery" data-i18n="nav.gallery">Gallery</a></li>
+          <li><a href="#contact" class="nav-cta" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-toggle" role="group" data-i18n-attr="aria-label:lang.label" aria-label="Choose language">
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="true" lang="en">EN</button>
+          <span class="lang-sep" aria-hidden="true">|</span>
+          <button type="button" class="lang-btn" data-lang="th" aria-pressed="false" lang="th">TH</button>
+        </div>
+        <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="site-nav">
+          <span class="menu-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span class="menu-label" data-i18n="nav.menu">Menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===================== 1. HERO ===================== -->
+    <!-- The hero background photo is assets/hero.jpg. Replace that file to change it. -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <svg class="leaf leaf-hero-left" viewBox="0 0 200 200" aria-hidden="true" focusable="false"><use href="#palm-leaf"/></svg>
+      <svg class="leaf leaf-hero-right" viewBox="0 0 200 200" aria-hidden="true" focusable="false"><use href="#palm-leaf"/></svg>
+      <div class="container hero-content">
+        <p class="hero-kicker" data-i18n="hero.kicker">Over-60s football in Phuket, Thailand</p>
+        <h1 id="hero-title" class="hero-title">FFF Phuket</h1>
+        <p class="hero-tagline" data-i18n="hero.tagline">Football for Fun &amp; Fitness</p>
+        <p class="hero-intro" data-i18n="hero.intro">We started FFF Phuket so that older players could keep enjoying the game they love – and to meet the visiting teams and groups who come to Phuket. Whether you're here for a week or for good, come and play with us.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="#contact" data-i18n="hero.ctaMatch">Arrange a match</a>
+          <a class="btn btn-whatsapp js-whatsapp" href="https://wa.me/66806990686?text=Hi%20FFF%20Phuket%2C%20we'd%20like%20to%20arrange%20a%20game" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg>
+            <span data-i18n="hero.ctaWhatsapp">Message us on WhatsApp</span>
+          </a>
+        </div>
+      </div>
+      <svg class="wave wave-bottom" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path d="M0 50c120-30 240-40 360-20s240 50 360 40 240-50 360-55 240 20 360 35v40H0z" fill="currentColor"/>
+      </svg>
+    </section>
+
+    <!-- Decorative palm leaf shape, reused in a few places -->
+    <svg class="sprite" aria-hidden="true" focusable="false">
+      <symbol id="palm-leaf" viewBox="0 0 200 200">
+        <g fill="currentColor">
+          <path d="M100 196C98 140 104 80 150 10c-30 50-40 110-44 186z"/>
+          <path d="M104 150c-20-10-44-8-70 6 24-4 48-4 70 0zM106 120c-24-14-52-14-84 0 30-6 58-6 84 2zM110 92c-22-18-48-24-80-16 30 0 56 6 80 20zM116 66c-16-20-40-30-70-28 28 6 50 16 70 32zM124 44c-10-18-28-30-52-36 20 10 38 22 52 40z"/>
+          <path d="M106 150c18-14 40-18 66-10-24-2-46 2-66 12zM108 122c20-16 44-22 74-16-28 0-52 6-74 18zM112 94c18-18 40-26 66-24-24 4-46 12-66 26zM118 68c12-18 30-28 52-30-20 6-38 16-52 32z"/>
+        </g>
+      </symbol>
+    </svg>
+
+    <!-- ===================== 2. HOW WE PLAY ===================== -->
+    <section class="section" id="how-we-play" aria-labelledby="play-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="play-title" data-i18n="play.title">How we play</h2>
+          <p data-i18n="play.intro">Proper football, played in a friendly spirit. Here's what to expect.</p>
+        </header>
+        <ul class="card-grid icon-cards">
+          <li class="icon-card">
+            <span class="icon-badge"><svg aria-hidden="true" focusable="false"><use href="#i-players"/></svg></span>
+            <h3 data-i18n="play.sevenTitle">7-a-side</h3>
+            <p data-i18n="play.sevenText">Seven players per team on the pitch – plenty of touches of the ball for everyone.</p>
+          </li>
+          <li class="icon-card">
+            <span class="icon-badge"><svg aria-hidden="true" focusable="false"><use href="#i-subs"/></svg></span>
+            <h3 data-i18n="play.subsTitle">Rolling substitutions</h3>
+            <p data-i18n="play.subsText">Come off for a breather and go back on whenever you're ready.</p>
+          </li>
+          <li class="icon-card">
+            <span class="icon-badge"><svg aria-hidden="true" focusable="false"><use href="#i-goal"/></svg></span>
+            <h3 data-i18n="play.keeperTitle">With a goalkeeper</h3>
+            <p data-i18n="play.keeperText">Each team plays with a goalkeeper.</p>
+          </li>
+          <li class="icon-card">
+            <span class="icon-badge"><svg aria-hidden="true" focusable="false"><use href="#i-notackle"/></svg></span>
+            <h3 data-i18n="play.tackleTitle">No slide tackles</h3>
+            <p data-i18n="play.tackleText">We keep it safe, so everyone can play again next week.</p>
+          </li>
+          <li class="icon-card">
+            <span class="icon-badge"><svg aria-hidden="true" focusable="false"><use href="#i-age"/></svg></span>
+            <h3 data-i18n="play.squadTitle">Our squad</h3>
+            <p data-i18n="play.squadText">Mainly players in their 60s, plus two players over 50 and two over 70.</p>
+          </li>
+          <li class="icon-card">
+            <span class="icon-badge"><svg aria-hidden="true" focusable="false"><use href="#i-turf"/></svg></span>
+            <h3 data-i18n="play.pitchTitle">Astro-turf pitch</h3>
+            <p data-i18n="play.pitchText">A true, even surface that's kind on the knees.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== 3. WHO WE WELCOME ===================== -->
+    <section class="section section-sand" id="welcome" aria-labelledby="welcome-title">
+      <svg class="leaf leaf-section" viewBox="0 0 200 200" aria-hidden="true" focusable="false"><use href="#palm-leaf"/></svg>
+      <div class="container">
+        <header class="section-head">
+          <h2 id="welcome-title" data-i18n="welcome.title">Who we welcome</h2>
+          <p data-i18n="welcome.intro">Everyone who loves the game is welcome – especially if you're visiting Phuket.</p>
+        </header>
+        <div class="welcome-grid">
+          <article class="welcome-card">
+            <span class="icon-badge icon-badge-terra"><svg aria-hidden="true" focusable="false"><use href="#i-team"/></svg></span>
+            <h3 data-i18n="welcome.teamsTitle">Visiting over-60s teams</h3>
+            <p data-i18n="welcome.teamsText">Bringing an over-60s team to Phuket? We'd love to arrange a friendly match – followed by a drink together at the bar.</p>
+            <a class="btn btn-primary" href="#contact" data-i18n="welcome.teamsCta">Arrange a match</a>
+          </article>
+          <article class="welcome-card">
+            <span class="icon-badge icon-badge-terra"><svg aria-hidden="true" focusable="false"><use href="#i-person"/></svg></span>
+            <h3 data-i18n="welcome.playersTitle">Individual players &amp; walk-ins</h3>
+            <p data-i18n="welcome.playersText">On holiday or new in town? Individual players and walk-ins are welcome at our training sessions – just turn up, or send us a message first.</p>
+            <a class="btn btn-outline js-whatsapp" href="https://wa.me/66806990686?text=Hi%20FFF%20Phuket%2C%20we'd%20like%20to%20arrange%20a%20game" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg>
+              <span data-i18n="welcome.playersCta">Message us on WhatsApp</span>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 4. MEET THE SQUAD ===================== -->
+    <!-- The player cards are created automatically from the "players" list in script.js.
+         To add, remove or edit players, change that list (see README.md). -->
+    <section class="section" id="squad" aria-labelledby="squad-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="squad-title" data-i18n="squad.title">Meet the squad</h2>
+          <p data-i18n="squad.intro">A few of the friendly faces you'll meet on a Saturday.</p>
+        </header>
+        <ul class="card-grid squad-grid" id="squad-grid">
+          <!-- Player cards are inserted here by script.js -->
+        </ul>
+        <noscript><p class="noscript-note">Please turn on JavaScript to see our players.</p></noscript>
+      </div>
+    </section>
+
+    <!-- ===================== 5. WHERE AND WHEN ===================== -->
+    <section class="section section-sand" id="where" aria-labelledby="where-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="where-title" data-i18n="where.title">Where &amp; when we play</h2>
+        </header>
+        <div class="where-grid">
+          <div class="where-info">
+            <dl class="info-list">
+              <div class="info-item">
+                <dt><svg class="info-icon" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg><span data-i18n="where.venueLabel">Venue</span></dt>
+                <dd>
+                  <strong class="info-big" data-i18n="where.venue">The Hatrix, Phuket</strong>
+                  <ul class="chips">
+                    <li data-i18n="where.fac1">Artificial grass pitch</li>
+                    <li data-i18n="where.fac2">Changing rooms</li>
+                    <li data-i18n="where.fac3">Parking</li>
+                    <li data-i18n="where.fac4">Bar for after the match</li>
+                  </ul>
+                </dd>
+              </div>
+              <div class="info-item">
+                <dt><svg class="info-icon" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg><span data-i18n="where.matchesLabel">Matches</span></dt>
+                <dd><strong class="info-big" data-i18n="where.matches">Saturdays at 5:00 pm</strong></dd>
+              </div>
+              <div class="info-item">
+                <dt><svg class="info-icon" aria-hidden="true" focusable="false"><use href="#i-whistle"/></svg><span data-i18n="where.trainingLabel">Training</span></dt>
+                <dd><strong class="info-big" data-i18n="where.training">Saturdays at 5:00 pm</strong> <span data-i18n="where.trainingNote">when no match is scheduled</span></dd>
+              </div>
+              <div class="info-item">
+                <dt><svg class="info-icon" aria-hidden="true" focusable="false"><use href="#i-coins"/></svg><span data-i18n="where.feeLabel">Pitch fee</span></dt>
+                <!-- The pitch fee text is "where.fee" in the translations in script.js -->
+                <dd><strong class="info-big" data-i18n="where.fee">To be confirmed</strong></dd>
+              </div>
+            </dl>
+            <a class="btn btn-primary" href="https://maps.app.goo.gl/JShTJBvzwVakECjj6" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg>
+              <span data-i18n="where.directions">Get directions</span>
+            </a>
+          </div>
+
+          <div class="map-wrap">
+            <!-- GOOGLE MAP
+                 This is a temporary map based on a search for "The Hatrix Phuket".
+                 To show the exact location:
+                   1. Open Google Maps and find The Hatrix.
+                   2. Click "Share", then the "Embed a map" tab, then "Copy HTML".
+                   3. From the copied code, copy only the web address inside src="…"
+                      and paste it in place of the src address below. -->
+            <iframe
+              class="map-frame"
+              src="https://www.google.com/maps?q=The+Hatrix+Phuket&amp;output=embed"
+              title="Map showing The Hatrix, Phuket"
+              data-i18n-attr="title:where.mapTitle"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 6. GALLERY ===================== -->
+    <section class="section" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="gallery-title" data-i18n="gallery.title">Gallery</h2>
+          <p data-i18n="gallery.intro">Photos and videos from our matches – more coming soon!</p>
+        </header>
+
+        <!-- GALLERY PHOTOS: replace assets/gallery-1.jpg … gallery-6.jpg with real photos
+             (same file names), and update the alt text to describe each photo.
+             To add more photos, copy one <li>…</li> block and change the number. -->
+        <ul class="gallery-grid">
+          <li><img src="assets/gallery-1.jpg" alt="Gallery photo 1 – coming soon" data-i18n-attr="alt:gallery.photo1" width="800" height="600" loading="lazy" decoding="async"></li>
+          <li><img src="assets/gallery-2.jpg" alt="Gallery photo 2 – coming soon" data-i18n-attr="alt:gallery.photo2" width="800" height="600" loading="lazy" decoding="async"></li>
+          <li><img src="assets/gallery-3.jpg" alt="Gallery photo 3 – coming soon" data-i18n-attr="alt:gallery.photo3" width="800" height="600" loading="lazy" decoding="async"></li>
+          <li><img src="assets/gallery-4.jpg" alt="Gallery photo 4 – coming soon" data-i18n-attr="alt:gallery.photo4" width="800" height="600" loading="lazy" decoding="async"></li>
+          <li><img src="assets/gallery-5.jpg" alt="Gallery photo 5 – coming soon" data-i18n-attr="alt:gallery.photo5" width="800" height="600" loading="lazy" decoding="async"></li>
+          <li><img src="assets/gallery-6.jpg" alt="Gallery photo 6 – coming soon" data-i18n-attr="alt:gallery.photo6" width="800" height="600" loading="lazy" decoding="async"></li>
+        </ul>
+
+        <!-- GALLERY VIDEO: replace the whole <div class="video-placeholder">…</div> below
+             with the embed code from YouTube or Facebook. Keep it inside <div class="video-wrap">.
+
+             YouTube: open the video > Share > Embed > copy the code. It looks like:
+               <iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID" title="FFF Phuket match video"
+                       loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
+             Facebook: open the video > "..." menu > Embed > copy the code. It looks like:
+               <iframe src="https://www.facebook.com/plugins/video.php?href=VIDEO_ADDRESS" title="FFF Phuket match video"
+                       loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
+             Remove any width="…" and height="…" from the copied code – the page sizes it automatically. -->
+        <div class="video-wrap">
+          <div class="video-placeholder">
+            <svg class="video-play" aria-hidden="true" focusable="false"><use href="#i-play"/></svg>
+            <p data-i18n="gallery.videoSoon">Match video coming soon</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 7. CONTACT ===================== -->
+    <section class="section section-green" id="contact" aria-labelledby="contact-title">
+      <svg class="leaf leaf-contact" viewBox="0 0 200 200" aria-hidden="true" focusable="false"><use href="#palm-leaf"/></svg>
+      <div class="container">
+        <header class="section-head">
+          <h2 id="contact-title" data-i18n="contact.title">Arrange a game</h2>
+          <p data-i18n="contact.intro">Planning a trip to Phuket, or want to join a training session? Send us a message and we'll get back to you.</p>
+        </header>
+
+        <div class="contact-grid">
+          <!-- CONTACT FORM (Formspree)
+               Messages are delivered by Formspree (https://formspree.io), a free form service.
+               To switch it on:
+                 1. Create a free Formspree account using the team's email address (see README.md).
+                 2. Create a new form. Formspree gives you an address like https://formspree.io/f/abcdwxyz
+                 3. Replace YOUR_FORM_ID below with your own form ID (the letters after /f/). -->
+          <form class="contact-form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+            <input type="hidden" name="_subject" value="New message from the FFF Phuket website">
+
+            <!-- Spam trap: real people never see or fill this in. Leave it here. -->
+            <div class="hp-field" aria-hidden="true">
+              <label for="f-gotcha">Leave this field empty</label>
+              <input type="text" id="f-gotcha" name="_gotcha" tabindex="-1" autocomplete="off">
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="f-name"><span data-i18n="contact.name">Your name</span> <span class="req" data-i18n="contact.required">(required)</span></label>
+                <input type="text" id="f-name" name="name" autocomplete="name" required aria-describedby="f-name-err">
+                <p class="field-error" id="f-name-err" aria-live="polite"></p>
+              </div>
+              <div class="field">
+                <label for="f-email"><span data-i18n="contact.email">Email</span> <span class="req" data-i18n="contact.required">(required)</span></label>
+                <input type="email" id="f-email" name="email" autocomplete="email" inputmode="email" required aria-describedby="f-email-err">
+                <p class="field-error" id="f-email-err" aria-live="polite"></p>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="f-phone" data-i18n="contact.phone">WhatsApp or phone</label>
+                <input type="tel" id="f-phone" name="phone" autocomplete="tel" inputmode="tel">
+              </div>
+              <div class="field">
+                <label for="f-team" data-i18n="contact.team">Team name</label>
+                <input type="text" id="f-team" name="team" autocomplete="organization">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="f-players" data-i18n="contact.players">Number of players</label>
+                <input type="number" id="f-players" name="players" min="1" max="60" inputmode="numeric">
+              </div>
+              <div class="field">
+                <label for="f-dates" data-i18n="contact.dates">Preferred dates</label>
+                <input type="text" id="f-dates" name="dates" placeholder="e.g. Saturday 14 or 21 March" data-i18n-attr="placeholder:contact.datesPlaceholder">
+              </div>
+            </div>
+            <div class="field">
+              <label for="f-message"><span data-i18n="contact.message">Message</span> <span class="req" data-i18n="contact.required">(required)</span></label>
+              <textarea id="f-message" name="message" rows="5" required aria-describedby="f-message-err" placeholder="Tell us a little about your team or yourself" data-i18n-attr="placeholder:contact.messagePlaceholder"></textarea>
+              <p class="field-error" id="f-message-err" aria-live="polite"></p>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" data-i18n="contact.submit">Send message</button>
+            <div class="form-status" id="form-status" role="status" aria-live="polite" tabindex="-1" hidden></div>
+          </form>
+
+          <aside class="wa-panel" aria-labelledby="wa-title">
+            <svg class="wa-panel-icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg>
+            <h3 id="wa-title" data-i18n="contact.waTitle">Prefer WhatsApp?</h3>
+            <p data-i18n="contact.waText">It's often the quickest way to reach us. Tap the button to start a chat.</p>
+            <a class="btn btn-whatsapp btn-lg btn-block js-whatsapp" href="https://wa.me/66806990686?text=Hi%20FFF%20Phuket%2C%20we'd%20like%20to%20arrange%20a%20game" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg>
+              <span data-i18n="contact.waButton">Chat on WhatsApp</span>
+            </a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 8. SPONSOR ===================== -->
+    <section class="section sponsor" id="sponsor" aria-labelledby="sponsor-title">
+      <div class="container sponsor-inner">
+        <h2 id="sponsor-title" class="sponsor-title" data-i18n="sponsor.title">Proudly sponsored by Riverhouse</h2>
+        <!-- Sponsor logo: assets/riverhouse-logo.png -->
+        <img class="sponsor-logo" src="assets/riverhouse-logo.png" alt="Riverhouse logo" data-i18n-attr="alt:sponsor.alt" width="800" height="320" loading="lazy" decoding="async">
+        <p data-i18n="sponsor.text">Thank you to Riverhouse for supporting FFF Phuket.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== 9. FOOTER ===================== -->
+  <footer class="site-footer">
+    <svg class="wave wave-top" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+      <path d="M0 40c120 15 240 40 360 35s240-45 360-55 240 30 360 40 240-10 360-30V0H0z" fill="currentColor"/>
+    </svg>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="footer-name">FFF Phuket</p>
+        <p data-i18n="hero.tagline">Football for Fun &amp; Fitness</p>
+      </div>
+
+      <div class="footer-social">
+        <p class="footer-label" data-i18n="footer.follow">Follow us</p>
+        <!-- SOCIAL MEDIA: replace each href="#" with the team's page address,
+             e.g. href="https://www.facebook.com/yourpage". Delete any you don't use. -->
+        <ul class="social-list">
+          <li><a href="#" class="social-link" aria-label="Facebook" target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false"><use href="#i-facebook"/></svg></a></li>
+          <li><a href="#" class="social-link" aria-label="Instagram" target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false"><use href="#i-instagram"/></svg></a></li>
+          <li><a href="#" class="social-link" aria-label="YouTube" target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false"><use href="#i-youtube"/></svg></a></li>
+          <li><a href="#" class="social-link" aria-label="LINE" target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false"><use href="#i-line"/></svg></a></li>
+        </ul>
+      </div>
+
+      <a class="back-to-top" href="#home">
+        <svg aria-hidden="true" focusable="false"><use href="#i-arrow-up"/></svg>
+        <span data-i18n="footer.backToTop">Back to top</span>
+      </a>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> FFF Phuket. <span data-i18n="footer.rights">All rights reserved.</span></p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp button (bottom-right on every screen size) -->
+  <a class="wa-float js-whatsapp" href="https://wa.me/66806990686?text=Hi%20FFF%20Phuket%2C%20we'd%20like%20to%20arrange%20a%20game" target="_blank" rel="noopener" aria-label="Message FFF Phuket on WhatsApp" data-i18n-attr="aria-label:whatsapp.float">
+    <svg aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg>
+  </a>
+</body>
+</html>
